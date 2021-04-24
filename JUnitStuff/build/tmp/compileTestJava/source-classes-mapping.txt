@@ -1,0 +1,4 @@
+cognizant/cloudnative/junitsamples/AssertionSamples.java
+ cognizant.cloudnative.junitsamples.AssertionSamples
+cognizant/cloudnative/junitsamples/ParameterizedTests.java
+ cognizant.cloudnative.junitsamples.ParameterizedTests

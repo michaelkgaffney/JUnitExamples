@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //We had to remove -api from the next line to import all of JUnit 5, including params
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
